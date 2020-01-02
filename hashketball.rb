@@ -158,3 +158,11 @@ def team_names
     keys[:team_name]
   end
 end
+
+def player_numbers(t_name)
+  game_hash.map do |team, keys|
+    
+end
+
+def player_stats
+end
