@@ -160,8 +160,8 @@ def team_names
 end
 
 def player_numbers(t_name)
-  game_hash.map do |team, keys|
-    
+  game_hash.each do |team, keys|
+    keys[:players].each do
 end
 
 def player_stats
