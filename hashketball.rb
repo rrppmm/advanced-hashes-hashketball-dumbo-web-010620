@@ -156,4 +156,5 @@ end
 def team_names
   game_hash.map do |team, keys|
     keys[:team_name]
+  end
 end
