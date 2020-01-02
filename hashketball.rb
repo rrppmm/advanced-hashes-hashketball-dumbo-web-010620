@@ -174,7 +174,7 @@ def player_stats(p_name)
     keys[:players].each do |player|
       if player[:player_name] = p_name
         return player.delete_if do |k, v|
-          [p]
+          [:player_name]
         end
       end
     end
