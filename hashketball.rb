@@ -172,7 +172,7 @@ end
 def player_stats(p_name)
   game_hash.each do |team, keys|
     keys[:players].each do |player|
-      if p_
+      if player[:player_name] = p_name
     end
   end
 end
