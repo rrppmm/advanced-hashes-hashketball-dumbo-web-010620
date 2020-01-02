@@ -162,7 +162,9 @@ end
 def player_numbers(t_name)
   game_hash.each do |team, keys|
     if keys[:team_name] == t_name
-      return keys[:players].map
+      return keys[:players].map do |players|
+        {
+      end
 end
 
 def player_stats
