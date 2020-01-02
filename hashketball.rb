@@ -171,5 +171,5 @@ end
 
 def player_stats(p_name)
   game_hash.each do |team, keys|
-    if ke
+    keys{:players].each do
 end
