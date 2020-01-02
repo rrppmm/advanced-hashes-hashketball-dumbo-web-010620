@@ -170,5 +170,6 @@ def player_numbers(t_name)
 end
 
 def player_stats(p_name)
-  
+  game_hash.each do |team, keys|
+    if ke
 end
