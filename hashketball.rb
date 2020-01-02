@@ -147,6 +147,5 @@ end
 
 def team_colors(t_name)
   game_hash.each do |team, keys|
-    keys[:team_name].each do |home_away|
-      if home_away[:colors]
+    if keys[:team_name]
 end
