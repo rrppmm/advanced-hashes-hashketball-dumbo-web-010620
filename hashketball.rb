@@ -154,5 +154,6 @@ def team_colors(t_name)
 end
 
 def team_names
-  game_hash.map
+  game_hash.map do |team, keys|
+    
 end
